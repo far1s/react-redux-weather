@@ -26,7 +26,7 @@ class WeatherList extends React.Component {
 
   render() {
     return(
-      <table className="table">
+      <table className="table table-bordered">
         <thead>
           <tr>
             <th>City</th>

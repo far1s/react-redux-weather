@@ -23,7 +23,7 @@ class SearchBar extends React.Component {
 
   render() {
     return(
-      <form className="input-group" onSubmit={this.onFormSubmit}>
+      <form className="search-bar input-group" onSubmit={this.onFormSubmit}>
         <input
           placeholder="Type in a German city name"
           className="form-control"
